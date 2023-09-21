@@ -440,12 +440,13 @@
                 contact me with the form below.
               </p>
             </div>
-            <form>
+            <form name="contact-form" netlify>
               <div class="mb-5">
                 <input
                   type="text"
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 border-muted text-muted text-white rounded-0"
                   placeholder="Your Good Name Please"
+                  name="name"
                 />
               </div>
               <div class="mb-5">
@@ -453,12 +454,14 @@
                   type="email"
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 border-muted text-muted text-white rounded-0"
                   placeholder="Email"
+                  name="email"
                 />
               </div>
               <div class="mb-5">
                 <textarea
                   class="form-control bg-transparent border-top-0 border-start-0 border-end-0 border-muted text-muted text-white rounded-0"
                   placeholder="Message"
+                  name="message"
                 ></textarea>
               </div>
               <div class="mb-5 d-grid">
